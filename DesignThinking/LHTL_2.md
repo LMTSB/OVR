@@ -6,3 +6,6 @@ your keyboard skill better and better.The next part is ***Recall*** which is how
 noted.This method would make you understand much more and last much longer in your memories.Last but not least I've learn about ***Illution of Competence*** which is how you
 misunderstood that you already understand what you've learn but in reality you don't.To avoid this Illution we need to try and so something challenging by ourself to make sure
 that we really understand it and pass our midterm exam :].
+
+
+adsfasfdsafadsfsaf
