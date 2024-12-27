@@ -1,1 +1,127 @@
-#asdf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .profile-header p {
+            margin: 5px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .bio {
+            margin-bottom: 20px;
+        }
+        .bio h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .bio p {
+            color: #777;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0073e6;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            background-color: #005bb5;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="profile-image.jpg" alt="Profile Picture">
+            <div>
+                <h1>John Doe</h1>
+                <p>Web Developer</p>
+                <p>Location: San Francisco, CA</p>
+            </div>
+        </div>
+
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm John, a passionate web developer with 5+ years of experience in creating beautiful and user-friendly websites. I specialize in front-end development using HTML, CSS, JavaScript, and React. When I'm not coding, I love traveling, photography, and exploring new technologies.
+            </p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+            <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: johndoe@example.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Website: www.johndoe.com</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
